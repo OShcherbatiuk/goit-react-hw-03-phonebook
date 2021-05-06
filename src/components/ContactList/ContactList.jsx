@@ -22,7 +22,7 @@ const ContactList = ({ contacts, onDeleteContact }) => {
 };
 
 ContactList.propTypes = {
-  contacts: PropTypes.arrayOf(PropTypes.string),
+  contacts: PropTypes.arrayOf(PropTypes.shape),
   onDeleteContact: PropTypes.func,
 };
 
